@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -112,13 +113,107 @@ namespace _06_GreenPlan
             }
             return vehicleClass;
         }
-        //TODO method to ask for/get vehicle model
+        public string GetVehicleModel()
+        {
+            Console.WriteLine("What is the vehicle model?");
+            return Console.ReadLine();
+        }
+        public Chance GetElectricChance()
+        {
+            Console.WriteLine("What is the chance of battery explosion in a high-impact crash?\n" +
+                    "1. Low\n" +
+                    "2. Medium\n" +
+                    "3. High");
+            string choice = Console.ReadLine();
+            Chance chanceBatteryExplodesInCrash = Chance.None;
+            bool keepRunning = true;
+            while (keepRunning)
+            {
+                switch (choice)
+                {
+                    case "1":
+                    case "Low":
+                    case "low":
+                        chanceBatteryExplodesInCrash = Chance.Low;
+                        keepRunning = false;
+                        break;
+                    case "2":
+                    case "Medium":
+                    case "medium":
+                        chanceBatteryExplodesInCrash = Chance.Medium;
+                        keepRunning = false;
+                        break;
+                    case "3":
+                    case "High":
+                    case "high":
+                        chanceBatteryExplodesInCrash = Chance.High;
+                        keepRunning = false;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return chanceBatteryExplodesInCrash;
+        }
+        public bool GetGasTowing()
+        {
+            Console.WriteLine("Is this vehicle used for towing? Y/N:");
+            string selection = Console.ReadLine();
+            bool isUsedForTowing = false;
+            bool continueRunning = true;
+            while (continueRunning)
+            {
+                switch (selection)
+                {
+                    case "Y":
+                    case "y":
+                        isUsedForTowing = true;
+                        continueRunning = false;
+                        break;
+                    case "N":
+                    case "n":
+                        isUsedForTowing = false;
+                        continueRunning = false;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            return isUsedForTowing;
+        }
         public void AddVehicle()
         {
             string vehicleClass = GetVehicleClass();
-            //TODO prompt for base properties
-            //TODO if vehicleClass == "Electric", prompt for Electric property, else if same for "Gas"
-            //TODO if statement to assign to appropriate repo
+            Console.WriteLine("Enter the following:\n" +
+                "Vehicle Make:");
+            string make = Console.ReadLine();
+            Console.WriteLine("Vehicle Model:");
+            string model = Console.ReadLine();
+            Console.WriteLine("Year Released:");
+            int year = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Safety Rating:");
+            double safetyRating = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Cost to Buy New:");
+            double costNew = Convert.ToDouble(Console.ReadLine());
+            if (vehicleClass == "Electric")
+            {
+                Chance chanceBatteryExplodesInCrash = GetElectricChance();
+                Electric newElectric = new Electric(make, model, year, safetyRating, costNew, chanceBatteryExplodesInCrash);
+                _electricRepo.AddVehicle(newElectric);
+            }
+            else if (vehicleClass == "Gas")
+            {
+                bool isUsedForTowing = GetGasTowing();
+                Gas newGas = new Gas(make, model, year, safetyRating, costNew, isUsedForTowing);
+                _gasRepo.AddVehicle(newGas);
+            }
+            else
+            {
+                Hybrid newHybrid = new Hybrid(make, model, year, safetyRating, costNew);
+                _hybridRepo.AddVehicle(newHybrid);
+            }
+            Console.WriteLine("Vehicle added.");
+            ReturnToMainMenu();
         }
         public void UpdateVehicle()
         {
@@ -126,17 +221,35 @@ namespace _06_GreenPlan
             //TODO ask for base properties
             //TODO if don't need to update, leave blank press enter and will pass over updating that property
             //TODO if vehicleClass == "Electric", prompt for Electric property, else if same for "Gas"
-            //Update based on vehicleClass
+            //TODO Update based on vehicleClass
+            //TODO ReturnToMainMenu
         }
         public void DeleteVehicle()
         {
-            //TODO ask for vehicleClass, ask for model
-            //Remove from appropriate repo
+            string vehicleClass = GetVehicleClass();
+            string model = GetVehicleModel();
+            switch (vehicleClass)
+            {
+                case "Electric":
+                _electricRepo.RemoveVehicle(model);
+                    break;
+                case "Gas":
+                    _gasRepo.RemoveVehicle(model);
+                    break;
+                case "Hybrid":
+                    _hybridRepo.RemoveVehicle(model);
+                    break;
+                default:
+                    break;
+            }
+            ReturnToMainMenu();
         }
         public void FindVehicle()
         {
-            //TODO ask for vehicleClass, ask for model
-            //Find from appropriate Repo and write to console
+            string vehicleClass = GetVehicleClass();
+            string model = GetVehicleModel();
+            //TODO grab from approrpiate repository and write to console
+            ReturnToMainMenu();
         }
         public void Compare()
         {
@@ -148,6 +261,11 @@ namespace _06_GreenPlan
                 case "Hybrid": //TODO Write _hybridRepo to console in list
                     break;
             }
+        }
+        public void ReturnToMainMenu()
+        {
+            Console.WriteLine("Press any key to return to main menu.");
+            Console.ReadKey();
         }
     }
 }
