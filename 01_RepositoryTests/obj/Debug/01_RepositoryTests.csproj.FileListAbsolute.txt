@@ -1,0 +1,17 @@
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\01_RepositoryTests.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\01_RepositoryTests.pdb
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\01_Cafe.exe
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\01_Cafe.pdb
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\01_Cafe.exe.config
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\obj\Debug\01_RepositoryTests.csprojAssemblyReference.cache
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\obj\Debug\01_RepositoryTests.csproj.CoreCompileInputs.cache
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\obj\Debug\01_RepositoryTests.csproj.CopyComplete
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\obj\Debug\01_RepositoryTests.dll
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\01_RepositoryTests\obj\Debug\01_RepositoryTests.pdb

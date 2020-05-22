@@ -1,0 +1,7 @@
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\bin\Debug\05_Greeting.exe.config
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\bin\Debug\05_Greeting.exe
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\bin\Debug\05_Greeting.pdb
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\obj\Debug\05_Greeting.csprojAssemblyReference.cache
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\obj\Debug\05_Greeting.csproj.CoreCompileInputs.cache
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\obj\Debug\05_Greeting.exe
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\05_Greeting\obj\Debug\05_Greeting.pdb

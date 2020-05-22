@@ -1,0 +1,7 @@
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\bin\Debug\04_CompanyOutings.exe.config
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\bin\Debug\04_CompanyOutings.exe
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\bin\Debug\04_CompanyOutings.pdb
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\obj\Debug\04_CompanyOutings.csprojAssemblyReference.cache
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\obj\Debug\04_CompanyOutings.csproj.CoreCompileInputs.cache
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\obj\Debug\04_CompanyOutings.exe
+C:\Users\Sabra\Desktop\ElevenFiftyProjects\DotNetProjects\GoldBadgeChallenges\04_CompanyOutings\obj\Debug\04_CompanyOutings.pdb
